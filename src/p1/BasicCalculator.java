@@ -12,6 +12,7 @@ public static void main(String[] args) {
     System.out.print("Enter second number: ");
     num2 = sc.nextDouble();
     System.out.print("Enter operator (+, -, *, /): ");
+    int num3 = 21;
     operator = sc.next().charAt(0);
     switch (operator) {
         case '+':
